@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Noto Sans", sans-serif;
+    --font3: "Playwrite GB S", cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font1);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+    font-family: var(--font2);
+}
+
+h1{
+    font-variant: small-caps;
+    font-size: 7vw;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 4vw;
+    font-family: var(--font3);
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+section > p{
+    padding-top: 1.4em;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.39);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: rgba(0, 0, 0, 0.308) 1px 1px 1px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(19, 19, 19); 
+    color: white;
+    box-shadow: inset #00000036 6px 6px 10px 0px;
+}
+
+section#img01{
+    background-image: url('/desafios/d012/imagens/background001.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+section#img02{
+    background: rgb(219, 202, 101) url('/desafios/d012/imagens/background002.jpg')  no-repeat fixed right center;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: var(--font2)
+}
