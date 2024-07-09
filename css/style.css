@@ -85,7 +85,9 @@ section#img01{
 section#img02{
     background: rgb(219, 202, 101) url('/imagens/background002.jpg');
     background-size: cover;
+    background-position: right center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     
 }
 
