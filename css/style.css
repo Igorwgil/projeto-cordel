@@ -75,7 +75,7 @@ section.imagem{
 }
 
 section#img01{
-    background-image: url('/imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -83,7 +83,7 @@ section#img01{
 }
 
 section#img02{
-    background: rgb(219, 202, 101) url('/imagens/background002.jpg');
+    background: rgb(219, 202, 101) url('../imagens/background002.jpg');
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
